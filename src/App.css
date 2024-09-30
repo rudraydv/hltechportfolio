@@ -1,0 +1,55 @@
+.bgimg{
+  position: absolute;
+    border-radius: inherit;
+    inset: 0px;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: 662.4px;
+    background-image: url(https://framerusercontent.com/images/TrJJuQ7sufSwUY5KvVdTUvR1xI.svg?scale-down-to=1024);
+    border: 0px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  animation: marquee 10s linear infinite;
+}
+
+/* src/animations.css */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.9s ease forwards;
+}
+
+body.fade-in {
+  animation: fadeIn 0.9s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
